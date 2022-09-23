@@ -1,4 +1,10 @@
 <html>
-    <p>Hi there!</p>
-    <p>It works!</p>
+    <head>
+        <title>My Site</title>
+    </head>
+    <body>
+        {{%for post in posts:%}}
+            {{post}}
+        {{%endfor%}}
+    </body>
 </html>
